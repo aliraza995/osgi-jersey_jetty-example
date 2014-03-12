@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1394601477438
+Bundle-Activator: io.github.example.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: example
+Bundle-SymbolicName: example
+Bundle-Version: 1.0.0
+Created-By: 1.7.0_05 (Oracle Corporation)
+Import-Package: javax.servlet;version="[2.5,3)",javax.ws.rs;version="[2.
+ 0,3)",javax.ws.rs.core;version="[2.0,3)",org.apache.felix.dm;version="[
+ 3.0,4)",org.glassfish.jersey.servlet;version="[2.6,3)",org.osgi.framewo
+ rk;version="[1.7,2)",org.osgi.service.event;version="[1.3,2)",org.osgi.
+ service.http;version="[1.2,2)",org.osgi.service.log;version="[1.3,2)"
+Include-Resource: html=web-resources/html
